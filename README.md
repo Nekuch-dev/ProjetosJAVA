@@ -1,6 +1,6 @@
 # ☕ Projetos Java - Módulos de Prática aprendendo Java
 
-Este repositório contém **três projetos em Java**, desenvolvidos para praticar conceitos de programação orientada a objetos, entrada de dados e lógica de sistemas. Cada projeto aborda um contexto do mundo real com soluções simples e interativas via terminal.
+Este repositório contém **três projetos em Java**, desenvolvidos para praticar conceitos de programação, entrada de dados e lógica de sistemas. Cada projeto aborda um contexto do mundo real com soluções simples e interativas via terminal.
 ⭐ Dê uma estrela se gostou!
 
 ---
