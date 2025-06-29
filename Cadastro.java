@@ -7,17 +7,18 @@ public class Cadastro {
 
         do {
         System.out.print("Digite o nome do visitante: ");
-            String nome = scanner.nextLine();
+        String nome = scanner.nextLine();
 
-        System.out.print("Digite o motivo da visita (Estudo, Reunião ou Entrevista): ");
-            String motivo = scanner.nextLine().toUpperCase();
+        System.out.println("\nDigite o motivo da visita");
+        System.out.println("1 - Estudo");
+        System.out.println("2 - Reunião");
+        System.out.println("3 - Entrevista");
+            String motivo = scanner.nextLine();
 
         switch (motivo) {
             case "1":
                 System.out.println("Bem-vindo ao centro de estudos, " + nome);
                 break;
-                //case 1:
-                    //System.out.println();
             case "2":
                 System.out.println("Sala de reuniões à direita, " + nome);
                 break;
@@ -49,7 +50,7 @@ public class Cadastro {
             }
         System.out.println("\n");
 
-            System.out.print("Deseja atender outro visitante? (s/n): ");
+            System.out.print("Deseja atender outro visitante?: ");
             continuar = scanner.nextLine().toLowerCase();
 
         } while (continuar.equals("s"));
